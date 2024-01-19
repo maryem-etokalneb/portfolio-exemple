@@ -1,0 +1,771 @@
+
+body{
+     margin :0%;
+     padding: 0%;
+     font-family:"roboto",sans-serif ;
+	 background-color: black;
+
+}
+
+
+.image{
+	z-index: 1;
+background:#272727 ;
+margin-top: 0px;
+padding-top: 10px;
+position: fixed;
+left: 0;
+width: 250px;
+height: 1500px;
+transition: 0.5s;
+transition-property: left;
+
+}
+.image .profile{  
+width:150px;
+height:180px;
+border-radius:100%;
+margin-bottom:10px;
+}
+.image h2{
+color:rgb(197 202 253);
+margin-top:0px;
+margin-bottom:20px;
+
+}
+.image a{
+	color:rgb(205, 202, 214);
+	display:block;
+	width:100%;
+	line-height:60px;      /*lfara4 bin joj hwayj home w work matalan*/
+	text-decoration:none;/*kanhiydo str  li ltht  dyal link mn home */
+	padding-left:50px;
+	box-sizing:border-box;
+	transition:0.4s;/*hadi bach ila tl3 lawn f home w mchit l my work aykon 3ndi ta4ayor bzrba f lawn*/
+    transition-property:background;
+}
+.image a:hover{
+	background-color:#7780a8;
+	
+}
+.image i{
+	padding-right: 10%;
+}
+ label #sidebar_btn{/* hadi bach ngad la bouton dyal menu bach tb9a tl3 w tkhtafi w mn b3d 4adi ndir liha none bach matb9ach tban kanhdr 3la dik checkbox lidrt f wahd input */
+	z-index: 2;
+	color:#fff;
+	position: fixed;
+	cursor: pointer;/*hadi bach thwli l click fo9wahd lklma bhal ila fih link */
+     left: 10px;
+	 font-size: 20px;
+	 top: 20px ;
+	 transition:0.5s;
+	 transition-property:color;
+
+}
+label #sidebar_btn:hover{
+color:#7780a8;
+
+}
+#check:checked ~ .image 
+{/* here i do collapsed sidebar  using input tag  checkbox without using javascript bach dik lboutouna tb9A tl3 w tmchi dyall menu*/
+	left:-200px;
+
+/* checked hiya fach katkon l boutoun check true ya3ni shiha */
+}
+#check:checked ~ .image a span{
+	display: none;
+  }
+
+  #check:checked ~  .image .imgheader{
+	display: table-row;
+  }
+  
+  #check:checked ~ .image a {
+	font-size: 20px;
+	margin-left: 160px;
+	width: 90px;
+	
+  }
+  #check:checked ~ .image h2 b {
+	display: none;
+  }
+ #check{
+	display: none;
+  }
+  .content{
+    margin-left: 868px;
+    background: no-repeat;
+  background-position: cover;
+  }
+.texte{	
+color: #fff;
+height: 170PX;
+width: 50%;
+padding-left: 390px;
+padding-top:40px;
+background-color:black;
+font-family: PoppinsBlack;
+}
+.sec {
+    padding-top: 300px;
+}
+.content {
+    margin-top: -351px;
+}
+.cv{
+margin-left: -90px;
+font-family: 'Macondo', cursive;
+font-size: 20px;
+color: #9aacc3;
+margin-top: -44px;
+
+}
+
+.hea{
+	
+	height: 123px;
+	width:100%;
+	 padding-top: 10px;
+	 text-align: center;
+	 color:white;
+ }
+ .titre{
+	font-family: 'Playfair Display SC', serif;
+	font-size: 38px;
+	margin-bottom: -10px;
+ }
+ .description{
+	font-family:'Playfair Display', serif;
+	font-size: 19px;
+	color:rgb(150 156 165);
+	margin-left: -21px;
+ }
+.jihalissr{
+	width: 25%;
+	height:400px;
+	float: left;
+	margin-top: -65px;
+	
+
+}
+.jihalimniya{
+	width: 65%;
+	height: 400px;
+	float: right;
+}
+.hithere{
+	margin-top: -105px;
+    font-size: smaller;
+    font-family: 'Macondo', cursive;
+    color: #c0e3e1;
+}
+h1{
+	padding-left:-10% ;
+	font-weight: 700;
+	margin-left: -174px;
+	margin-top: -13px;
+    font-size: 69px;
+}
+ .acceuil{
+	 float :left;
+	margin-top: 26px;
+    display: -webkit-inline-box;
+    color: hsl(240, 5%, 85%);
+    background: #1d365c;
+    margin-left: 33px;
+    padding: 25px;
+    border-radius: 30px;
+ }
+ .acceuil:hover{
+	background-color: #21758f ;
+	
+}
+.cone{
+	float:left;
+	margin-top: 26px;
+    direction: none;
+    color: hsl(240, 5%, 85%);
+    background: #21758f;
+    margin-left: 9px;
+    padding: 25px;
+    border-radius: 30px;
+	width: 88px;
+}
+.cone:hover{
+	background-color:#22406e ;
+	
+}
+
+.partie2 ul.information li {
+    
+    margin-bottom: 30px; }
+	.partie2 ul.information li span {
+		width: calc(100% - 130px);
+	color:#999999;
+	padding-left: 75px;
+ }
+		.partie2 ul.information li span:first-child {
+			display: inline-block;
+		  font-weight: 600;
+		  color: #fff;
+		  width: 130px;
+		  padding-left: 75px; 
+		}
+		  
+			#b1{
+			
+			  display: -webkit-inline-box;
+			  color: hsl(240, 5%, 85%); 
+			background: #1d365c;
+		
+            margin-left: 320px;
+            padding: 25px;
+            border-radius: 30px;
+			}
+			#b1:hover{
+				background-color:#557ebd ;
+				
+			}
+		#skills-section{
+			margin-top: 500px;
+
+		}
+		.h3{
+			font-weight:100px;
+
+		}
+		.gauche{
+			margin-left: 100px;
+			margin-top: 30px;
+			font-size: 18px;
+		}
+		.droit{
+			margin-left: 300px;
+			font-size: 18px;
+		
+		}
+		.her{
+			padding-bottom:40px;
+		}
+		.wajiha{
+			height:14px;
+			width:500px;
+			margin-left:100px;
+			border-radius: 50px;
+			background-color: rgb(39, 38, 38);
+			box-shadow: 1px 1px 4px rgb(77, 76, 76);
+		}
+		.nisba{
+			height:14px;
+			width:350px;
+			border-radius: 40px;
+			background-color: hsl(216deg 36% 57%);
+			margin-left: 100px;
+    		margin-top: -29px;
+		}
+		.n3{
+			width:250px;
+		}
+		.d1{
+			margin-left:160px;
+			font-size: 18px;
+		}
+		.d4{
+			margin-left:280px;
+			font-size: 15px;
+		}
+		.d3{
+			margin-left:310px;
+			font-size: 18px;
+		}
+		.d5{
+			margin-left:180px;
+			font-size: 18px;
+		}
+		.d6
+		{
+			margin-left:156px;
+			font-size: 18px;
+		}
+		.n6{
+			width:200px;
+		}
+		.d7{
+			margin-left:430px;
+			font-size: 15px;
+		}
+		.n7{
+			width:500px;
+		}
+		.d8{
+			margin-left:238px;
+			font-size:18px;
+		}
+
+		.n8{
+			width:350px;
+		}
+		
+		.competence
+		{
+			margin-top: 271px;
+			height: 71px;
+			padding-bottom: 40px;
+		}
+		  .langue{
+			padding-top: 31px;
+            text-align: center;
+			font-family:'Playfair Display', serif;
+			height: 400px;
+			margin-top: 20px;
+			font-size: 19px;
+			color:rgb(150 156 165)
+		}
+		.d9{
+			margin-left:430px;
+			font-size: 18px;
+		}
+		.n9{
+			width:500px;
+		}
+		.w10
+		{
+			margin-left:190px;
+		}
+		.n10{
+			width: 502px;
+			margin-left: 190px;
+		}
+		.d10{
+			margin-left:417px;
+			font-size: 18px;
+		}
+		.g10{
+			margin-left:189px;
+			font-size: 18px;
+		}
+		.w11
+		{
+			margin-left:376px;
+		}
+		.n11{
+			width: 401px;
+			margin-left:376px;
+		}
+		.d11{
+			margin-left:334px;
+			font-size: 18px;
+		}
+		.g11{
+			margin-left:369px;
+			font-size: 18px;
+		}
+		.w12
+		{
+			margin-left:535px;
+		}
+		.n12{
+			width:372px;
+			margin-left:536px;
+		}
+		.d12{
+			margin-left:299px;
+			font-size: 18px;
+		}
+		.g12{
+			margin-left:531px;
+			font-size: 18px;
+		}
+		.btn{
+			margin-top: 301px;
+			display: -webkit-inline-box;
+			  color: hsl(240, 5%, 85%); 
+			background: #1d365c;
+		
+            margin-left: -143px;
+            padding: 25px;
+            border-radius: 30px;
+		}
+		.btn:hover{
+			background-color:#557ebd ;
+			
+		}
+		.school{
+			font-family: 'Playfair Display SC', serif;
+			font-size: 38px;
+		
+			margin-top: 326px;
+
+		}
+		.school1{
+			width: 540px;
+			height: 305px;
+			margin-top: 344px;
+             margin-left:98px;
+			 margin-bottom: 20px;
+			 float:left;
+			 background-color: #2f2f34;
+			 border-radius: 10px;
+		}
+		.school2{
+			width: 540px;
+			height: 305px;
+			margin-top: -323px;
+             margin-left: 134px;
+			 margin-bottom: 20px;
+			 float:left;
+			 background-color: #2f2f34;
+			 border-radius: 10px;
+		}
+		h4{
+			font-size: 35px;
+			color: #557ebd;
+			text-align: center;
+			margin-bottom: -6px;
+		}
+		.resum{
+			color: #c0e3e1;
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			padding-left: 17px;
+			font-size: 30px;
+			text-align: center;
+		}
+		.study{
+			
+            padding-left: 83px;
+			font-family:'Playfair Display', serif;
+			height: 360px;
+			margin-top: -21px;
+			font-size: 19px;
+			color:rgb(150 156 165)
+		}
+		.activ{
+			font-family: 'Playfair Display SC', serif;
+			font-size: 38px;
+			width: 50px;
+			padding-left: 584px;
+		}
+ /*==============card activities1 ==============*/
+ .activtype{
+	position: absolute;
+	width: 250px;
+	height: 320px;
+	background: none;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin-left: -438px;
+	margin-top: 2630px;
+
+ }
+ .card{
+	position: relative;
+	
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	transform-style: preserve-3d;
+	transition: all 0.8s ease;
+ }
+ .card:hover{
+	transform: rotateY(180deg);
+  }
+ .cardfront{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	backface-visibility: hidden;
+	overflow: hidden;
+ }
+ .cardback{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	backface-visibility: hidden;/*katkhlini manbiynch fach 4a ydor bach tban image2*/
+	overflow: hidden;
+	text-align: center;
+	transform: rotateY(180deg);
+	
+	 }
+	/*==============card activities2 ==============*/
+	.activtype1{
+		position: absolute;
+		width: 250px;
+		height: 320px;
+		background: none;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		margin-left: -138px;
+		margin-top: 2630px;
+	
+	 }
+	 .card1{
+		position: relative;
+		
+		width: 100%;
+		height: 100%;
+		border-radius: 10px;
+		transform-style: preserve-3d;
+		transition: all 0.8s ease;
+	 }
+	 .card1:hover{
+		transform: rotateY(180deg);
+	  }
+	 .cardfront1{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		border-radius: 10px;
+		backface-visibility: hidden;
+		overflow: hidden;
+	 }
+	 .cardback1{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		border-radius: 10px;
+		backface-visibility: hidden;/*katkhlini manbiynch fach 4a ydor bach tban image2*/
+		overflow: hidden;
+		text-align: center;
+		transform: rotateY(180deg);
+		
+		 }
+		 /*==============card activities3 ==============*/
+	.activtype2{
+		position: absolute;
+		width: 250px;
+		height: 320px;
+		background: none;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		margin-left: 164px;
+		margin-top: 2630px;
+	
+	 }
+	 .card2{
+		position: relative;
+		
+		width: 100%;
+		height: 100%;
+		border-radius: 10px;
+		transform-style: preserve-3d;
+		transition: all 0.8s ease;
+	 }
+	 .card2:hover{
+		transform: rotateY(180deg);
+	  }
+	 .cardfront2{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		border-radius: 10px;
+		backface-visibility: hidden;
+		overflow: hidden;
+	 }
+	 .cardback2{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		border-radius: 10px;
+		backface-visibility: hidden;/*katkhlini manbiynch fach 4a ydor bach tban image2*/
+		overflow: hidden;
+		text-align: center;
+		transform: rotateY(180deg);
+		
+		 }
+		  /*==============card activities4 ==============*/
+	.activtype3{
+		position: absolute;
+		width: 250px;
+		height: 320px;
+		background: none;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		margin-left: 470px;
+		margin-top: 2630px;
+	
+	 }
+	 .card3{
+		position: relative;
+		
+		width: 100%;
+		height: 100%;
+		border-radius: 10px;
+		transform-style: preserve-3d;
+		transition: all 0.8s ease;
+	 }
+	 .card3:hover{
+		transform: rotateY(180deg);
+	  }
+	 .cardfront3{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		border-radius: 10px;
+		backface-visibility: hidden;/*katkhlini manbiynch fach 4a ydor bach tban image2*/
+		overflow: hidden;
+	 }
+	 .cardback3{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		border-radius: 10px;
+		backface-visibility: hidden;
+		overflow: hidden;
+		text-align: center;
+		transform: rotateY(180deg);
+	 }
+	 /* --------contacter----------*/
+	 #contact{
+		margin-top: 1000px;
+    height: 521px;
+		
+	 }
+	 .schoo{
+		font-family: 'Playfair Display SC', serif;
+		font-size: 38px;
+		margin-top: 26px;
+
+	}
+	.fec{
+			
+		padding-left: 83px;
+		font-family:'Playfair Display', serif;
+		
+		margin-top: -25px;
+		font-size: 19px;
+		color:rgb(150 156 165)
+	}
+	.con{
+	
+		height: 123px;
+		width:100%;
+		 padding-top: 10px;
+		 text-align: center;
+		 color:white;
+	 }
+	 .back{
+	    float: right;
+    width: 411px;
+	 }
+	 .bgroun{
+		margin-left: 0px;
+		width: 416px;
+		margin-top: -5px;}
+	 .gro1{
+		margin-top: -42px;
+		margin-left: 179px;
+		font-family: 'PT Serif', serif;
+		margin-bottom: 5px;
+		color: white;
+	 }
+	 .gro3{
+		margin-top: 49px;
+		margin-left: 180px;
+		font-family: 'PT Serif', serif;
+		margin-bottom: -13px;
+		color: white;
+	 }
+	 .gro2{
+		margin-left: 613px;
+		margin-top: -137px;
+		font-family: 'PT Serif', serif;
+		margin-bottom: -10px;
+		color: white;
+	}
+	.gro4{
+	    margin-left: 613px;
+    margin-top: 50px;
+    font-family: 'PT Serif', serif;
+    margin-bottom: -13px;
+    color: white;
+	}
+	/*----------------- cantact2------------------*/
+	.wrapper{ 
+	margin-left: 333px;
+    margin-top: 120px;}
+	.wrapper .button{
+		
+		display: inline-block;
+		height: 60px;
+		width: 60px;
+		
+		margin: 0 5px;
+		overflow: hidden;
+		background: #c6c6cb;;
+		border-radius: 50px;
+		cursor: pointer;
+		box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+		transition: all 0.3s ease-out;
+	  }
+	  .wrapper .button:hover{
+		width: 200px;
+	  }
+	  .wrapper .button .icon{
+		display: inline-block;
+		height: 60px;
+		width: 60px;
+		text-align: center;
+		border-radius: 50px;
+		box-sizing: border-box;
+		line-height: 60px;
+		transition: all 0.3s ease-out;
+		background-color: #000000;
+	  }
+	  .wrapper .button:nth-child(1):hover .icon{
+		background: #4267B2;
+	  }
+	  .wrapper .button:nth-child(2):hover .icon{
+		background: #1DA1F2;
+	  }
+	  .wrapper .button:nth-child(3):hover .icon{
+		background: #E1306C;
+	  }
+	  .wrapper .button:nth-child(4):hover .icon{
+		background: #333;
+	  }
+	  .wrapper .button:nth-child(5):hover .icon{
+		background: #ccbf4e;
+	  }
+	  .wrapper .button .icon i{
+		font-size: 25px;
+		line-height: 60px;
+		transition: all 0.3s ease-out;
+		color: #7780a8;
+	  }
+	  .wrapper .button:hover .icon i{
+		color: rgb(221, 229, 240);
+	  }
+	  .wrapper .button span{
+		font-size: 20px;
+		font-weight: 500;
+		line-height: 60px;
+		margin-left: 10px;
+		transition: all 0.3s ease-out;
+	  }
+	  .wrapper .button:nth-child(1) span{
+		color: #4267B2;
+		text-decoration: underline;
+	  }
+	  .wrapper .button:nth-child(2) span{
+		text-decoration: underline;
+		color: #1DA1F2;
+	  }
+	  .wrapper .button:nth-child(3) span{
+		text-decoration: underline;
+		color: #E1306C;
+	  }
+	  .wrapper .button:nth-child(4) span{
+		text-decoration: underline;
+		color: #333;
+	  }
+	  .wrapper .button:nth-child(5) span{
+		text-decoration: underline;
+		color: #97931a;
+	  }
